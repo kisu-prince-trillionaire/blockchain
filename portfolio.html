@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CRYPTOCASH</title>
     <link rel="stylesheet" href="./style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous">
     </script>
@@ -24,9 +25,6 @@
            <li><a href="contact.html">Contact Us</a></li>
        </ul>
 
-        <button class="dropdown-btn">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="35" height="35"><path fill="none" d="M0 0h24v24H0z"/><path d="M16 18v2H5v-2h11zm5-7v2H3v-2h18zm-2-7v2H8V4h11z"/></svg>
-       </button>
    </header>
    <ul class="dropdown-menu">
     <li><a href="home.html">Home</a></li>
@@ -34,6 +32,67 @@
     <li><a href="portfolio.html">Portfolio</a></li>
     <li><a href="contact.html">Contact Us</a></li>
     </ul>
+
+    <section class="start_up">
+        <div>
+            <h1>Let's See the Live rates of the cryptos</h1>
+            <p>Cryptocurrencies are a tradable asset, much like stocks, commodities, securities and so on. Their price is determined by how much interest there is on the market in buying them – that's called demand – and how much is available to buy – that's supply. The relationship between the two determines the price.</p>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="card" style="width: 18rem;" class="coin-price">
+            <div class="card-img-top" class="logo"><img src="https://blogger.googleusercontent.com/img/a/AVvXsEi32rDKQR2Swi7YfHjDzyZUBGEmxTz77OClnm24SZl7kWuls7fsVCIfAObY_JRJIReQnBWZIPSVfDLSqDvqeu4CCXCoNQIoUGK-OSDUGMtDJFxh9vmU6WGajIgXH4CsR_-sXU0qWbyJTJl7N0BSTB8HcAGSpCJ54G1daZPnU6h2oANo2CTGsbHCoaGJHQ" ></div>
+            <div class="card-body">
+                <h1>$<span id="bitcoin"></span></h1>
+                <h1>Bitcoin</h1>
+                <p class="card-text">
+                    Bitcoin is a decentralized digital currency that can be transferred on the peer-to-peer bitcoin network. Bitcoin transactions are verified by network nodes through cryptography and recorded in a public distributed ledger called a blockchain.Bitcoin can bring a lot of change in crypto world
+                </p>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;"class="coin-price">
+            <div class="card-img-top"class="logo"><img src="https://blogger.googleusercontent.com/img/a/AVvXsEhrUFoHC68rLHQYMV41awqGtoeU6qI-CkSVmcYK-KBCrOvL-jzwLOx8pN-5B8aALsHh1Zc9mmDm8LVQSSpdpsw0v6vrJsv4r9_lv0ic5aYbogc3i3h9mG6ZGMc7g9_cGSRh_soaKmXtpMEOxBFIsmiTa_wticu9T07MbqQ42J9NwowHp8tn8OUIBlhjqA" ></div>
+            <div class="card-body">
+                <h1>$<span id="litecoin"></span></h1>
+                <h1>Litecoin</h1>
+                <p class="card-text">
+                    Litecoin is a decentralized peer-to-peer cryptocurrency and open-source software project released under the MIT/X11 license. Inspired by Bitcoin, Litecoin was among the earliest altcoins, starting in October 2011. In technical details, the Litecoin main chain shares a slightly modified Bitcoin codebase.
+                </p>
+            </div>
+        </div>
+       
+        <div class="card" style="width: 18rem;"class="coin-price">
+            <div class="card-img-top"class="logo"><img src="https://blogger.googleusercontent.com/img/a/AVvXsEgfcodOJm7ZIXw2kiqdo5abN4cUvFYgyqpKt91zHI8710ltPK5Ny_S5X93w9LSDsF5jW61frn3C8a_8w2GXu4bf0clzxuJljoQ8n6az5EI5zQOcl5W2LScP-1-41NQwPW5A3JWT9EwejtOnHsd3q2-llUsJJQ3Z74v_2FOPn0TrI2529NS9_hmFbvModw" ></div>
+            <div class="card-body">
+                <h1>$<span id="ethereum"></span></h1>
+                <h1>Ethereum</h1>
+                <p class="card-text">
+                    Ethereum is a decentralized, open-source blockchain with smart contract functionality. Ether is the native cryptocurrency of the platform. Among cryptocurrencies, Ether is second only to Bitcoin in market capitalization. Ethereum was conceived in 2013 by programmer Vitalik Buterin
+                </p>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;"class="coin-price">
+            <div class="card-img-top"class="logo"><img src="https://blogger.googleusercontent.com/img/a/AVvXsEj9YzGIFUSMpRoWE4IjGl_o2zpdPkvtUS6jzIgZWEWl7ztYyV20oXu80A52v0R_nXpt_qXVBzxnfse2_pfeIbVHwQSR3oLqqAyMqVqnzJpdbSCBHA2b_zlheiLY3Bb0PYCEXQny7q-FnGE01ZtxVFVC8DbLWW-ZC1PC-gaqL7IC7ZfRxFOZufcv8lcY1g" ></div>
+            <div class="card-body">
+                <h1>$<span id="dogecoin"></span></h1>
+                <h1>Dogecoin</h1>
+                <p class="card-text">
+                    Dogecoin is a cryptocurrency created by software engineers Billy Markus and Jackson Palmer, who decided to create a payment system as a "joke", making fun of the wild speculation in cryptocurrencies at the time. It is considered both the first "meme coin", and, more specifically, the first "dog coin"
+                </p>
+            </div>
+        </div>
+
+    </div>
+    <div class="calc">
+        <h1>Buy your Crypto</h1>
+        <form action="">
+           <input type="text">
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+    <!-- <script src="ap.js"></script> -->
     
 </body>
 </html>
